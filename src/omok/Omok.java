@@ -12,7 +12,7 @@ public class Omok {
 	
 	public void init(int ver, int hor){
 		end = false;
-		turn = -1;
+		turn = 1;
 		board = new int[ver+2][hor+2];
 		for(int i = 1; i <= ver; i++){
 			for(int j = 1; j<= hor; j++){

@@ -14,6 +14,7 @@ import javax.swing.JPanel;
 class LinePanel extends JPanel{
 	protected int lineNum;
 	int x0, y0;
+	
 	public LinePanel(int lineNum){
 		this.lineNum = lineNum;
 		this.x0 = 0;
